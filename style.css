@@ -1,0 +1,138 @@
+/* * {
+  box-sizing: border-box;
+} */
+body {
+  display: flex;
+  justify-content: center;
+}
+div {
+  display: grid;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  height: 60vh;
+  width: 40vw;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  margin-top: 8%;
+  box-shadow: 10px 15px 15px #f1f6f9;
+}
+
+.inner-container {
+  display: grid;
+  position: absolute;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+  height: 60vh;
+  width: 20vw;
+  border-radius: 20px;
+  grid-column: 1;
+}
+h3 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: bolder;
+}
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: linear-gradient(hsl(241, 81%, 54%), hsla(241, 72%, 46%, 0));
+  margin-top: 30px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: aliceblue;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: small;
+  text-align: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  margin-top: 0;
+}
+.innernumber {
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.totalmark {
+  position: absolute;
+  margin-top: 110px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.secondary {
+  position: absolute;
+  margin-left: 280px;
+  color: black;
+  margin-top: 15px;
+  font-size: x-large;
+  font-weight: 900;
+}
+.minicon {
+  position: absolute;
+  height: 6vh;
+  width: 35vh;
+  background-color: hsl(0, 100%, 67%);
+  border-radius: 10px;
+  margin-left: 280px;
+  margin-top: 70px;
+  opacity: 0.1;
+}
+.minicon2 {
+  position: absolute;
+  height: 6vh;
+  width: 35vh;
+  background-color: hsl(39, 100%, 56%);
+  border-radius: 10px;
+  margin-left: 280px;
+  margin-top: 130px;
+  opacity: 0.1;
+}
+.minicon3 {
+  position: absolute;
+  height: 6vh;
+  width: 35vh;
+  background-color: hsl(166, 100%, 37%);
+  border-radius: 10px;
+  margin-left: 280px;
+  margin-top: 190px;
+  opacity: 0.1;
+}
+.minicon4 {
+  position: absolute;
+  height: 6vh;
+  width: 35vh;
+  background-color: hsl(234, 85%, 45%);
+  border-radius: 10px;
+  margin-left: 280px;
+  margin-top: 250px;
+  opacity: 0.1;
+}
+.btn {
+  position: absolute;
+  height: 6vh;
+  width: 35vh;
+  margin-left: 280px;
+  margin-top: 310px;
+  border-radius: 50px;
+  background-color: hsl(224, 30%, 27%);
+  color: #f1f6f9;
+}
+.btn:hover {
+  background-color: hsl(241, 81%, 54%);
+}
+img {
+  height: 50px;
+  width: 50px;
+}
