@@ -73,7 +73,7 @@ p {
 }
 .secondary {
   position: absolute;
-  margin-left: 280px;
+  margin-left: 320px;
   color: black;
   margin-top: 15px;
   font-size: x-large;
@@ -85,7 +85,7 @@ p {
   width: 35vh;
   background-color: hsl(0, 100%, 67%);
   border-radius: 10px;
-  margin-left: 280px;
+  margin-left: 320px;
   margin-top: 70px;
   opacity: 0.1;
 }
@@ -95,7 +95,7 @@ p {
   width: 35vh;
   background-color: hsl(39, 100%, 56%);
   border-radius: 10px;
-  margin-left: 280px;
+  margin-left: 320px;
   margin-top: 130px;
   opacity: 0.1;
 }
@@ -105,7 +105,7 @@ p {
   width: 35vh;
   background-color: hsl(166, 100%, 37%);
   border-radius: 10px;
-  margin-left: 280px;
+  margin-left: 320px;
   margin-top: 190px;
   opacity: 0.1;
 }
@@ -115,7 +115,7 @@ p {
   width: 35vh;
   background-color: hsl(234, 85%, 45%);
   border-radius: 10px;
-  margin-left: 280px;
+  margin-left: 320px;
   margin-top: 250px;
   opacity: 0.1;
 }
@@ -123,7 +123,7 @@ p {
   position: absolute;
   height: 6vh;
   width: 35vh;
-  margin-left: 280px;
+  margin-left: 320px;
   margin-top: 310px;
   border-radius: 50px;
   background-color: hsl(224, 30%, 27%);
